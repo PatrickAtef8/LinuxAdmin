@@ -1,0 +1,20 @@
+Group 'FamilyName' does not exist. Creating group...
+Group 'FamilyName' created successfully.
+User 'yourname' does not exist. Creating user...
+Adding user `yourname' ...
+Adding new group `yourname' (1002) ...
+Adding new user `yourname' (1001) with group `yourname' ...
+The home directory `/home/yourname' already exists.  Not copying from `/etc/skel'.
+Changing the user information for yourname
+Enter the new value, or press ENTER for the default
+	Full Name []: 	Room Number []: 	Work Phone []: 	Home Phone []: 	Other []: Is the information correct? [Y/n] User 'yourname' created successfully.
+User 'yourname' added to group 'FamilyName'.
+User information:
+uid=1001(yourname) gid=1002(yourname) groups=1002(yourname),1001(FamilyName)
+User 'yourname' UID: uid=1001(yourname) gid=1002(yourname) groups=1002(yourname),1001(FamilyName)
+User 'yourname' UID: 1001
+User 'yourname' GID: 1002
+Group information:
+FamilyName:x:1001:yourname
+Group 'FamilyName' GID: 1001
+Group 'FamilyName' Members: yourname
